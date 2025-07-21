@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Venkatesh R | Data Analyst Portfolio</title>
+<style>
+  /* Reset & base */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;
+    color: #333;
+    line-height: 1.6;
+  }
+  a {
+    color: #2c98f0;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  /* Container */
+  .container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  header h1 {
+    font-size: 3rem;
+    color: #1a1a1a;
+  }
+  header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  /* Section Titles */
+  h2 {
+    color: #1a1a1a;
+    font-size: 2rem;
+    border-bottom: 3px solid #2c98f0;
+    padding-bottom: 6px;
+    margin-bottom: 24px;
+  }
+
+  /* About */
+  #about {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #444;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  #about p {
+    font-size: 1.1rem;
+    flex: 1;
+  }
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+  }
+
+  /* Skills */
+  #skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .skill {
+    background: #2c98f0;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 3px 6px rgba(44,152,240,0.4);
+    transition: background 0.3s ease;
+  }
+  .skill:hover {
+    background: #1b6ec2;
+  }
+
+  /* Projects */
+  #projects ul {
+    list-style: none;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    padding-left: 0;
+  }
+  #projects li {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #2c98f0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+  }
+  #projects li:hover {
+    transform: translateX(8px);
+  }
+  #projects li a {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  #projects li p {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  /* Contact */
+  #contact form {
+    max-width: 500px;
+    margin: 0 auto 60px;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  #contact label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #222;
+  }
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+  }
+  #contact button {
+    background: #2c98f0;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  #contact button:hover {
+    background: #1b6ec2;
+  }
+
+  /* Footer */
+  footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 18px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 700px) {
+    #about {
+      flex-direction: column;
+      text-align: center;
+    }
+    .profile-photo {
+      margin-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Venkatesh R</h1>
+  <p>Data Analyst | Data-driven insights for smart business decisions</p>
+</header>
+
+<div class="container">
+
+  <section id="about">
+    <img src="IMG_20250623_194739.jpg" alt="Venkatesh R" class="profile-photo" />
+    <p>
+      I'm a detail-oriented Data Analyst with hands-on experience in data wrangling, visualization, and predictive modeling.
+      My passion is turning complex datasets into clear insights that help companies grow.
+      Skilled in Python, SQL, Excel, and data visualization tools like Power BI and Tableau.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">Python (Pandas, NumPy)</div>
+    <div class="skill">SQL & Database Management</div>
+    <div class="skill">Data Visualization (Matplotlib, Seaborn, Power BI)</div>
+    <div class="skill">Excel (Pivot Tables, VBA)</div>
+    <div class="skill">Statistical Analysis</div>
+    <div class="skill">oracle SQL</div>
+    <div class="skill">Tableau</div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <a href="https://bit.ly/3YIJF77" target="_blank" rel="noopener noreferrer">Blinkit Daseboar-Excel</a>
+        <p>Analyzed sales trends and helped optimize marketing campaigns increasing ROI by 15%.</p>
+      </li>
+      <li>
+        <a href="" target="_blank" rel="noopener noreferrer">Youtube-clone</a>
+        <p>youtube clone model interactive project using html and css to conect webdevolement tools</p>
+      </li>
+      <li>
+        <a href="https://care-track-hub.lovable.app/" target="_blank" rel="noopener noreferrer">Care Track Hub </a>
+        <p>Designed and deployed a patient care dashboard to streamline hospital data management.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="venakteshrmnv@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your Name" required />
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="your.email@example.com" required />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2025 Venkatesh R | Data Analyst Portfolio</p>
+</footer>
+
+</body>
+</html>
